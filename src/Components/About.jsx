@@ -16,27 +16,28 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/forest.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "space-colonybackground";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm a CyberSecurity student studying at Universidad Autonoma Metronpolitana. I enjoy exploring, creating and learning.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Scripting",
+  "Linux",
+  "Arduino",
+  "Cryptography",
+  "Information Security",
+  "Cybersecurity",
+  "Raspberry Pi",
 ];
 
 /**
@@ -45,7 +46,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am constantly learning in the exciting world of cybersecurity, information technologies and development with hardware such as Arduino and Raspberry Pi. Although I am not an expert, I am motivated to delve deeper into these fields every day, designing practical solutions and exploring how integrate technological innovation with the protection of systems and data. My goal is to continue growing, acquire new skills and contribute with ideas that combine creativity, functionality and security.";
 
 const About = () => {
   return (
